@@ -23,6 +23,7 @@
     <modules>
         <module>provider-service</module>
         <module>consumer-service</module>
+        <module>config-service</module>
     </modules>
 
     <dependencies>
