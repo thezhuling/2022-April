@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 39.96.38.111:8848
+        ## 配置内容的数据格式，目前只支持 properties 和 yaml 类型，这个和dataId有关-> ${prefix}-${spring.profiles.active}.${file-extension}
+        file-extension: properties
+      discovery:
+        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
