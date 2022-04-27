@@ -1,4 +1,4 @@
-package com.zhuling.provider.provider;
+package com.zhuling.provider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
