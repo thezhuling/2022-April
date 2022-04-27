@@ -1,15 +1,15 @@
-package com.zhuling;
+package com.zhuling.provider.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@SpringBootApplication
 @EnableDiscoveryClient
-public class Application {
+@SpringBootApplication
+public class ProviderServiceApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ProviderServiceApplication.class, args);
+	}
 
 }
