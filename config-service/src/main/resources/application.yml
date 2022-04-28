@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.96.38.111:8848
+server:
+  port: 9001
